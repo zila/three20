@@ -222,6 +222,17 @@ static NSString* kNavigatorHistoryImportantKey  = @"TTNavigatorHistoryImportant"
 
     } else {
       UIViewController* parent = self.topViewController;
+        
+      // fix to use tab bar's more view navigation controller
+      if ([parent isKindOfClass:[UINavigationController class]]) { 
+        if (parent.parentViewController != nil) {
+          parent = parent.parentViewController; 
+        }
+        if ([parent isKindOfClass:[UITabBarController class]]) { 
+          parent = [(UITabBarController*)parent moreNavigationController]; 
+        } 
+      }        
+        
       if (parent != controller) {
         return parent;
 
