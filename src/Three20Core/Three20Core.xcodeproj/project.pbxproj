@@ -45,6 +45,17 @@
 		6EDAE9C9118CA1790008133C /* TTGlobalCoreRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAE9C8118CA1790008133C /* TTGlobalCoreRects.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		72FA26AB11CC86F10017208A /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.llvmgcc42;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXContainerItemProxy section */
 		6EB460DD1183D8D400685649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -309,6 +320,7 @@
 				BEF31F380F352DF5000DE5D2 /* Frameworks */,
 			);
 			buildRules = (
+				72FA26AB11CC86F10017208A /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
