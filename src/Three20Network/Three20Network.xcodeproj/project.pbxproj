@@ -40,17 +40,6 @@
 		6EF96405118EFCF0003902E7 /* TTURLRequestQueueInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF96404118EFCF0003902E7 /* TTURLRequestQueueInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildRule section */
-		72FA26B611CC870E0017208A /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.llvmgcc42;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-/* End PBXBuildRule section */
-
 /* Begin PBXContainerItemProxy section */
 		6EE7366B11849C5800A35176 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -378,7 +367,6 @@
 				BEF31F380F352DF5000DE5D2 /* Frameworks */,
 			);
 			buildRules = (
-				72FA26B611CC870E0017208A /* PBXBuildRule */,
 			);
 			dependencies = (
 				6EE7367111849C6300A35176 /* PBXTargetDependency */,
